@@ -5,18 +5,13 @@
  **/
 class Browserupdate extends Plugin
 {
-	public function action_plugin_activation($file)
-	{
-		
-	}
-
 	/**
 	 * Create plugin configuration menu entry
 	 **/
 	public function filter_plugin_config( $actions, $plugin_id )
 	{
 		if ( $plugin_id == $this->plugin_id() ) {
-			$actions[] = _t('Configure');
+			$actions['configure'] = _t('Configure');
 		}
 		return $actions;
 	}
@@ -24,24 +19,7 @@ class Browserupdate extends Plugin
 	/**
 	 * Create plugin configuration
 	 **/
-	public function action_plugin_ui($plugin_id, $action)
-	{
-		
-	}
-	
-	/**
-	 * Add help text to plugin configuration page
-	 **/
-	public function help()
-	{
-		$help = "";
-		return $help;
-	}
-
-	/**
-	 * Nothing to do here atm
-	 **/
-	public function action_init()
+	public function action_plugin_ui_configure($plugin_id, $action)
 	{
 		
 	}
