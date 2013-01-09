@@ -3,12 +3,12 @@
 	<name>Browserupdate</name>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
 	<author url="http://konzertheld.de/">Christian Gredig</author>
-	<version>0.1</version>
+	<version>1.0</version>
 	<description><![CDATA[Inserts the Javascript from http://browser-update.org.]]></description>
 	<help>
 		<value><![CDATA[
 			<p>You can use the options to determine which browser versions are too old for your website if you want.</p>
 		]]></value>
 	</help>
-	<copyright>2011</copyright>
+	<copyright>2011-2013</copyright>
 </pluggable>
